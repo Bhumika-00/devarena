@@ -1,106 +1,142 @@
-# Devarena
+# 🚀 DevArena
 
-Devarena is a decentralized event and booking platform that integrates both Web2 and Web3 technologies. The platform allows users to list, book, and manage events or properties with blockchain-backed transparency and security. It features a seamless combination of traditional web technologies and smart contract-powered functionality.
+**Real-Time Multiplayer Coding Platform with Live Code Translation**
 
-## Features
+---
 
-- **Event/Property Listings**: Display and search available events or properties.
-- **On-Chain Booking**: Decentralized booking system using blockchain for secure and transparent transactions.
-- **Integrated Calendar**: View availability and manage bookings with an on-chain calendar.
-- **User Authentication**: Integrated with Clerk for a smooth authentication process.
-- **Web2 and Web3 Integration**: Combines traditional web practices with decentralized solutions.
+## 📖 Overview
 
-## Tech Stack
+DevArena is an innovative real-time, multiplayer coding challenge platform that enhances multilingual learning by allowing users to:
 
-- **Frontend**: React.js, Next.js
-- **Backend**: Convex (Backend as a Service)
-- **Blockchain**: Smart contracts for decentralized booking and transactions
-- **Authentication**: Clerk for user authentication
-- **Deployment**: Vercel (Frontend), Convex (Backend)
+- Write code in one language (e.g., Java)
+- View translated equivalent in another (e.g., Rust) instantly 💡
+- Compete in live challenges with a real-time leaderboard 🏆
+- Experience lightweight performance with **zero raw code storage**
 
-## Setup and Installation
+---
 
-### Prerequisites
+## ✨ Key Features
 
-- Node.js (>= 14.x)
-- npm or yarn
-- Git
-- Clerk account for authentication
-- Convex account for backend services
+- 🔄 **Live Code Translation** (e.g., Java ➡️ Rust)
+- 💬 Compare OOP vs Systems-level paradigms
+- 🔒 **No source code is stored**, only metadata (status, timestamps, language, score)
+- 📊 **Real-time leaderboard** and streak tracking
+- ⚡ **Lightweight and type-safe validation**
 
-### Clone the Repository
+---
+
+## 🛠 Tech Stack
+
+### 🧩 Frontend
+- `Next.js` – SSR & routing  
+- `TypeScript` – Type-safe logic  
+- `Tailwind CSS` – Utility-first responsive design  
+- `Zustand` – Minimal state management  
+- `ShadCN UI` – Customizable UI components  
+
+### 🌐 Backend / Tools
+- `Convex` – Serverless DB & function management  
+- `Convex Functions` – Code execution metadata, validation logic  
+- `Clerk` – Authentication  
+- `Vercel` – Hosting & deployment  
+- `Loca.lt / Ngrok` – Tunneling for local development  
+
+---
+
+## 📦 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have the following installed:
+
+- `Node.js` (v16 or later)
+- `Git`
+- `pnpm` or `npm`
+
+---
+
+### 🔄 Clone the Repository
 
 ```bash
-git clone https://github.com/Bhumika-00/devarena.git
-cd devarena
+git clone https://github.com/your-username/DevArena.git
+cd DevArena
 ```
 
-### Install Dependencies
+---
 
-Install dependencies for both frontend and backend:
+### 📥 Install Dependencies
 
-#### Frontend
+Using `pnpm`:
 
 ```bash
-cd frontend
+pnpm install
+```
+
+Or using `npm`:
+
+```bash
 npm install
 ```
 
-#### Backend (Convex)
+---
+
+### 🚀 Run the Development Server
 
 ```bash
-cd convex
-npm install
+pnpm dev
 ```
 
-### Configure Clerk and Convex
+Then open your browser and navigate to:
 
-1. **Clerk**: Sign up for a Clerk account and configure the authentication in the frontend. Add necessary environment variables (API keys) for Clerk.
-2. **Convex**: Set up your Convex project for handling the backend logic and smart contracts. Make sure to configure your Convex instance with the correct API keys and project settings.
+```
+http://localhost:3000
+```
 
-### Running Locally
+---
 
-To run the application locally, follow these steps:
+### 🌐 Deployment
 
-#### Start the Frontend
+App is hosted via **Vercel**  
+Tunnel your local server with:
 
 ```bash
-cd frontend
-npm run dev
+npx localtunnel --port 3000
+# OR
+npx ngrok http 3000
 ```
 
-The frontend will be available at `http://localhost:3000`.
+---
 
-#### Start the Backend (Convex)
+## 📸 Demo & Screenshots
 
-```bash
-cd convex
-npx convex dev
-```
+Coming soon... 🎥
 
-### Deployment
+---
 
-- **Frontend**: Deploy the frontend to Vercel by linking your GitHub repository to your Vercel project.
-- **Backend**: Deploy the backend to Convex, ensuring that the required environment variables and configuration are set up.
+## 📣 Roadmap
 
-Vercel will automatically trigger deployments when you push changes to the main branch.
+- [ ] Add more language pairs
+- [ ] Mobile-friendly UI
+- [ ] Team-based multiplayer challenges
+- [ ] Community challenge creation
 
-## Contributing
+---
 
-We welcome contributions to Devarena! Here's how you can help:
+## 🧑‍💼 Author
 
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push your changes (`git push origin feature/YourFeature`).
-5. Create a pull request for review.
+📌 Prepared by: **Bhumika Sharma**  
+📧 Contact: _[Your Email or GitHub profile link]_  
 
-## License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📄 License
 
-## Acknowledgments
+MIT License. Feel free to use and contribute!
 
-- **Clerk** for seamless user authentication.
-- **Convex** for simplifying the backend and smart contract integration.
-- The open-source community for providing valuable tools and resources.
+---
+
+Made with ❤️ by **Bhumika Sharma**
+
+
+
+
