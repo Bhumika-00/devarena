@@ -107,12 +107,6 @@ npx ngrok http 3000
 
 ---
 
-## 📸 Demo & Screenshots
-
-Coming soon... 🎥
-
----
-
 ## 📣 Roadmap
 
 - [ ] Add more language pairs
@@ -125,7 +119,7 @@ Coming soon... 🎥
 ## 🧑‍💼 Author
 
 📌 Prepared by: **Bhumika Sharma**  
-📧 Contact: _[Your Email or GitHub profile link]_  
+
 
 ---
 
